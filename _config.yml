@@ -111,12 +111,15 @@ content:
   - title: Interest and Activities
     layout: text
     content: | # this will include new lines to allow paragraphs
-**Designing** 
-- Developed the website layout for a friend's winter clothes shop. 
-- Learned basics of photoshop and video editing using Pinnacle Studio to complete my projects.
+    
+      **Designing** 
 
-**Sports** 
-- Actively participated in school Cricket tournament for consecutively 3 years. 
+      - Developed the website layout for a friend's winter clothes shop. 
+      - Learned basics of photoshop and video editing using Pinnacle Studio to complete my projects.
+
+      **Sports** 
+
+      - Actively participated in school Cricket tournament for consecutively 3 years. 
 
 # Footer
 footer_show_references: true
