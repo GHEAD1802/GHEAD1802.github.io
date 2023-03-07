@@ -82,23 +82,23 @@ content:
         caption: January 2023 to current
         quote: >
           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-         - Meets with the employment supervisor responsible for the course(s), for purpose of orientation and receiving guidelines for grading and marking assignments and for providing written feedback to the students.
-         - Grades and marks work submitted by students from tests, exams, or projects.
-         - Provides written feedback to the students on the quality of material presented for grading or marking. 
-         - We are required to maintain regularly scheduled and posted times for providing consultation and a reasonable amount of informally scheduled consultation to students on test, exam or project results. 
-         - We are required to assist in the production of tests, exams, or projects under the supervision of the person responsible for the laboratory or class
-         
-         - layout: right
-          title: Western Canada lottery corporation  
-          sub_title: Retail spot specialist
-          caption: October 2022 to current
-          quote: >
-          Short description of the company (optional)
           description: | # this will include new lines to allow paragraphs
-         - Process incoming telephone calls from the retailer network, triage reported problems following pre- defined procedures and log specifics in service desk systems Organize them perfectly and then stock to on the floor    
-         - Isolate network and terminal problems and initiate corrective action with telecommunication and POS hardware maintenance suppliers  
-         - Follow through to resolution on any incident management referrals, and escalate service delays to supplier service management, provide technical and administrative support including report and incident report generation also Maintain and update system files and records  
+           - Meets with the employment supervisor responsible for the course(s), for purpose of orientation and receiving guidelines for grading and marking assignments and for providing written feedback to the students.
+           - Grades and marks work submitted by students from tests, exams, or projects.
+           - Provides written feedback to the students on the quality of material presented for grading or marking. 
+           - We are required to maintain regularly scheduled and posted times for providing consultation and a reasonable amount of informally scheduled consultation to students on test, exam or project results. 
+           - We are required to assist in the production of tests, exams, or projects under the supervision of the person responsible for the laboratory or class
+
+         - layout: right
+            title: Western Canada lottery corporation  
+            sub_title: Retail spot specialist
+            caption: October 2022 to current
+            quote: >
+            Short description of the company (optional)
+            description: | # this will include new lines to allow paragraphs
+             - Process incoming telephone calls from the retailer network, triage reported problems following pre- defined procedures and log specifics in service desk systems Organize them perfectly and then stock to on the floor    
+             - Isolate network and terminal problems and initiate corrective action with telecommunication and POS hardware maintenance suppliers  
+             - Follow through to resolution on any incident management referrals, and escalate service delays to supplier service management, provide technical and administrative support including report and incident report generation also Maintain and update system files and records  
 
   - title: Education
     layout: list
