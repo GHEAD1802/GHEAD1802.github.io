@@ -69,6 +69,7 @@ Here after, any updates added to the `_config.yml` file will automatically be sy
 3. [Github Tutorial](https://docs.github.com/en) - to learn more on how to make your way through learning Github.
 4. [Jekyll Installation.](https://jekyllrb.com/docs/)
 5. Interested in AsciiDoc? [Here](https://asciidoc.org/) is the link to learn more about it.
+6) Link for creating GIF application-[Recordit](https://recordit.co/)
 6. Links to excellent themes for resume hosting:
    - [Modern Resume Theme](https://github.com/sproogen/modern-resume-theme)
    - [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume)
