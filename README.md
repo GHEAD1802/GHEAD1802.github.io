@@ -24,76 +24,70 @@ Check for [more resources](#more-resources) and links to Markdown tutorial and o
 ---
 
 ## Instructions
-### 1) Search for static website themes.
-Having learnt basics of Markdown and having created a Github account,  you can now begin by searching for static website themes supported by Github pages and Jekyll over the internet.
+### 1) Finding your choice of static website themes.
+Once you learn about Markdown and Github,and set up github account successfullly, you can find static website themes and its Github pages and Jekyll over the internet.
+You can find this themes on [rubygems](https://rubygems.org) and serch `jekyll-resume-theme` in search bar.
+I have attached some sample themes in [more resources.](#more-resources)
 
-A couple of good themes have been linked under [more resources.](#more-resources)
+> Etter mentioned in chap17 that using a complex content management system (CMS) that requires a server-side database and scripting language, one could use a static site generator like Jekyll or Hugo, which converts Markdown files into HTML pages. This approach eliminates the need for server-side dependencies and reduces the attack surface of the website, making it less vulnerable to security threats.
 
-> Etter describes in his book that static websites are easy to setup, secure and are fast. They do not have server side dependencies and therefore they are not generated dynamically.
+### 2) Fork choosen resume theme from 1).
 
-### 2) Fork the repository.
-> According to Github docs by forking a repository a copy of it is created in your profile, from which changes can be made without affecting the original repository.
+  1.  Click the `Fork` button on top-right part of the screen in selected theme's repo.  
+  2.  It will ask to write repository's name.
+  3.  Keep formate for naming repository-`username.github.io`, and keep everything as it is.
+  4.  By clicking on `create fork` append that theme to given name' repo.
+  
+  > Etter mentioned in chap 8 how forking allows multiple contributors to work on the same project simultaneously without interfering with each other's work, and how changes made to a forked repository can be merged back into the original repository when ready. we will fork this theme and make changes and it will be very helpful to us.
 
-Once the theme has been selected, go to its github repository;
+### 3) Make changes to resume theme to make it yours.
 
-  1.  On the repository, click the `Fork` button found on top-right part of the screen.  
-  2.  This would prompt you to enter a repository name.
-      - It is very important to note that the repository name should be written as `username.github.io`
-      - Leave the default setting as is, and finally
-      - click on `create fork` button.
+- Go to `_config.yml` file in selected Resume-theme's repository. 
+- Replaces content with your content and make changes in `_config.yml` file (Edit file by clicking on pencil icon at right top which will give you option to edit file.)   
+-  Finalize the chnage and commit to master branch, by clicking `Commit changes` button
 
-### 3) Modifying the resume template.
-- Now that we already have the theme/template copied on our repository, we can go ahead and edit the `_config.yml`. 
-- By editing the `_config.yml` file we will be able to modify and add content of your own resume to show on the static website.
-  1. To edit the file, click on the file, then click on the pencil icon at the top.
-   
-  2. Add your content to the file, write a commit message such as "updated _config.yml" or "added resume content" and press the `Commit changes` button.
+> This can be related to Etter's advice to host documentation on a website and use version control systems to keep the content up-to-date and in sync with the latest updates.
 
-> This ensures the website content is updated instantly. In his book, Andrew Etter advices to host content on website for the very same reason and also adds that in this way content is kept in sync to new updates.
-
-### 4) Viewing the website.
-🎉Congratulations!🎊 You have successfully hosted a resume on Github Pages.  
-
-You should now be able to view your static website at `https://username.github.io/`
-
-Here after, any updates added to the `_config.yml` file will automatically be synced with the website and will be ready to be viewed on a browser as soon as github pages reloads the website in the background. 
+### 4) Hosting a resume.
+Now that you have successfully complemted all things on Github pages your static website `https://username.github.io/`
+We can go to brower and search for `https://username.github.io/` which will show all changes made with our resume and successfully sync changes made from `_config.yml`.
 
 #### Below is an animated GIF demo of the hosted resume:
 
-![](./assets/demo.gif)
+
 
 
 ### More Resources
 1. Learn how to use [Markdown.](https://www.markdowntutorial.com/)
-2. To purchase Andrew Etter's _Modern Technical Writing_ follow [this link.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
-3. [Github Tutorial](https://docs.github.com/en) - to learn more on how to make your way through learning Github.
-4. [Jekyll Installation.](https://jekyllrb.com/docs/)
-5. Interested in AsciiDoc? [Here](https://asciidoc.org/) is the link to learn more about it.
-6) Link for creating GIF application-[Recordit](https://recordit.co/)
-6. Links to excellent themes for resume hosting:
-   - [Modern Resume Theme](https://github.com/sproogen/modern-resume-theme)
-   - [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume)
+2. Some of useful Markdown editor [Typora](https://typora.io/),[HedgeDoc](https://hedgedoc.org/) etc.
+3. To purchase Andrew Etter's _Modern Technical Writing_ follow [this link.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+4. To learn about Github, follow through [Github Tutorial](https://docs.github.com/en).
+5. [Jekyll Installation.](https://jekyllrb.com/docs/)
+6. Links that is helpful for some of the best resume-themes:
+   - [jekyll-cv-theme](https://github.com/aleksnyder/jekyll-cv)
+   - [modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
 
 ---
 
 ## Authors and Acknowledgements
-- The theme is created by xxxxxxxxxxx ,  using _Jekyll_ and _Github pages_.
+- [James Grant](https://github.com/sproogen/modern-resume-theme) did great job in designing modern-resume-theme using _Jekyll_ and _Github pages_ which i used to implement for mine.
 - List of group members who assisted in making improvements to the README file: 
-  1. Martin Popper
-  2. Aditya Kashyap
-  3. Saif Mahmud
+ 1. Martin Popper
+ 2. Aditya Kashyap
+ 3. Saif Mahmud
 
 ---
 ## FAQs 
 
 #### Why is Markdown better than a word processor?
-- Markdown has some of the helpful benefits such as Simplicity, Portability, Speed, Version control, Accessibility 
-- 
+- Markdown is batter becuase it's simple and lightweight markup language which is good and easy to edit 
+- Markdown files are portable and platform-independent. This means they can be opened and edited in any text editor
+- Markdown files are easy to version control.This means changes made to the document can be tracked over time, and previous versions can be restored if needed.
 
 #### Why is my resume not showing up?
-1. Ensure your Github repository name is `username.github.io`. This can be changed from **Repository Settings > General > Repository name**
-2. Ensure your Github repository is `public`. This can be changed from **Repository Settings > General > Danger Zone > Change respository visibility**
-3. Ensure your Github pages is built from `master` branch. This can be changed from **Repository Settings > Pages > Build and deployment > Branch**
+- Make sure that your Github repository name is `username.github.io` (Steps to change if you don't have that formate **Inside your repo go to option Settings, Under General section > Repository name**
+- Make sure Github repository is `public`.(Steps for that **Inside your repo go to option Settings -> General -> Danger Zone -> Change respository Visibility**)
+- Make sure your Github pages is built from `master` branch. (Steps for that **Inside your repo go to option Settings > Pages > Build and deployment > Branch**)
 
 
 
