@@ -7,13 +7,13 @@ version: 2
 
 # Personal info
 name: Akashkumar Ghelani
-title: Computer science (Analysis of algorithms) teaching assistant
+title: Computer science Student
 email: ghelanas@myumanitoba.ca
 website: https://github.com/GHEAD1802
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: 
 about_content: | 
   Hi, my name is Akashkumar Ghelani and I am currently pursuing an undergraduate degree in Computer Science majors at the University of Manitoba. My fields of interest are Software Development, Machine learning, Databases, and Data mining.
 
@@ -32,52 +32,91 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Study manager- student managing app -Group work
+        link: 
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  GHEAD1802/Study-Manager
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/GHEAD1802/Study-Manager
         quote: >
-          Short overview of the project (optional)
+           An application that helps students towards managing study for their courses.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - Used agile process with OOP concepts in Java to form study manager   
+          - Used android studio for coding, collaboration, and release stages.   
+          - Used HSQLB for back-end storage and performing queries and all. 
+          - Carried out stand-up meetings and retrospectives as tools for team-building activities.   
+          - Used unit testing, integration testing, and acceptance testing to test between modules and a system  
+          - testing.
+
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Go to the doc-scheduling website
+        link: 
+        link_text: Link Text
+        additional_links:
+          - title:  GHEAD1802/Go_to_doc_Website
+            icon: fab fa-github
+            url: https://github.com/GHEAD1802/Go_to_doc_Website
+        quote: >
+           A website which helps show you available doctors nearby for cure with their ratings and their appointments.
+        description: | # this will include new lines to allow paragraphs
+          - Personally responsible for JavaScript and the layout of a web application.   
+          - Used HTML, CSS, and JavaScript to create a modular design for the reuse of code.  
+          - Created a Low-fidelity prototype using the wire-frame method.   
+          - Collected data from family members to generate data on creating a user-friendly application.   
+
+          
+          
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: University of Manitoba  
+        sub_title: Computer science (Analysis of algorithms)-teaching assistant
+        caption: January 2023 to current
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+         - Meets with the employment supervisor responsible for the course(s), for purpose of orientation and receiving guidelines for grading and marking assignments and for providing written feedback to the students.
+         - Grades and marks work submitted by students from tests, exams, or projects.
+         - Provides written feedback to the students on the quality of material presented for grading or marking. 
+         - We are required to maintain regularly scheduled and posted times for providing consultation and a reasonable amount of informally scheduled consultation to students on test, exam or project results. 
+         - We are required to assist in the production of tests, exams, or projects under the supervision of the person responsible for the laboratory or class
+         
+         - layout: right
+          title: Western Canada lottery corporation  
+          sub_title: Retail spot specialist
+          caption: October 2022 to current
+          quote: >
+          Short description of the company (optional)
+          description: | # this will include new lines to allow paragraphs
+         - Process incoming telephone calls from the retailer network, triage reported problems following pre- defined procedures and log specifics in service desk systems Organize them perfectly and then stock to on the floor    
+         - Isolate network and terminal problems and initiate corrective action with telecommunication and POS hardware maintenance suppliers  
+         - Follow through to resolution on any incident management referrals, and escalate service delays to supplier service management, provide technical and administrative support including report and incident report generation also Maintain and update system files and records  
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+        title: University of Manitoba
+        sub_title: Bachelor of Science in Computer Science, majors.
+        caption: May 2018 - May 2023
+        
+  - title: Interest and Activities
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+**Designing** 
+- Developed the website layout for a friend's winter clothes shop. 
+- Learned basics of photoshop and video editing using Pinnacle Studio to complete my projects.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+**Sports** 
+- Actively participated in school Cricket tournament for consecutively 3 years. 
 
 # Footer
 footer_show_references: true
