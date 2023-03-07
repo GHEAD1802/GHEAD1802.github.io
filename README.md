@@ -62,8 +62,8 @@ We can go to brower and search for `https://username.github.io/` which will show
 2. Some of useful Markdown editor [Typora](https://typora.io/),[HedgeDoc](https://hedgedoc.org/) etc.
 3. To purchase Andrew Etter's _Modern Technical Writing_ follow [this link.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 4. To learn about Github, follow through [Github Tutorial](https://docs.github.com/en).
-5. [Jekyll Installation.](https://jekyllrb.com/docs/)
-6. Links that is helpful for some of the best resume-themes:
+5. Here is how to [Jekyll Installation.](https://jekyllrb.com/docs/)
+6. Some of the sample resume-theme's links given below to help you get started:
    - [jekyll-cv-theme](https://github.com/aleksnyder/jekyll-cv)
    - [modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
 
