@@ -13,7 +13,7 @@ website: https://github.com/GHEAD1802
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: 
+about_profile_image: images/AkashGhelani.jpg
 about_content: | 
   Hi, my name is Akashkumar Ghelani and I am currently pursuing an undergraduate degree in Computer Science majors at the University of Manitoba. My fields of interest are Software Development, Machine learning, Databases, and Data mining.
 
