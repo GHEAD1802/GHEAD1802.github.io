@@ -76,7 +76,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: University of Manitoba  
         sub_title: Computer science (Analysis of algorithms)-teaching assistant
         caption: January 2023 to current
@@ -89,7 +89,7 @@ content:
            - We are required to maintain regularly scheduled and posted times for providing consultation and a reasonable amount of informally scheduled consultation to students on test, exam or project results. 
            - We are required to assist in the production of tests, exams, or projects under the supervision of the person responsible for the laboratory or class
 
-      - layout: right
+      - layout: left
         title: Western Canada lottery corporation  
         sub_title: Retail spot specialist
         caption: October 2022 to current
