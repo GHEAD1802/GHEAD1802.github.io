@@ -2,7 +2,7 @@
 
 # How to host a resume on Github Pages
 ## Purpose
-This README describes the steps on how to host and format a resume using arkdown, VS Code, GitHub Pages, and Jekyll.
+This README describes the steps on how to host and format a resume using Markdown, VS Code, GitHub Pages, and Jekyll.
 
 ## Additional Purpose
 This README will also introduce and demonstrate general principles of technical writing, as explained by Andrew Etter in _Modern Technical Writing
@@ -24,14 +24,21 @@ Check for [more resources](#more-resources) and links to Markdown tutorial and o
 ---
 
 ## Instructions
-### 1) Finding your choice of static website themes.
+### 1) Here are steps on setting up a Github Account.
+If you have github account then go to 2) directly. 
+  1. Serch <https://github.com/> to your browser.
+  2. To create new account, click on `Sign up` button, if you have account then `Sign in`.
+  3. Assume that you signed on or created account.
+  4. There will be authntication link will sent out to email address to verify email address you have provided. Verify your email address by clicking the link.
+ 
+### 2) Find your choice of static website themes.
 Once you learn about Markdown and Github,and set up github account successfullly, you can find static website themes and its Github pages and Jekyll over the internet.
 You can find this themes on [rubygems](https://rubygems.org) and serch `jekyll-resume-theme` in search bar.
 I have attached some sample themes in [more resources.](#more-resources)
 
 > Etter mentioned in chap17 that using a complex content management system (CMS) that requires a server-side database and scripting language, one could use a static site generator like Jekyll or Hugo, which converts Markdown files into HTML pages. This approach eliminates the need for server-side dependencies and reduces the attack surface of the website, making it less vulnerable to security threats.
 
-### 2) Fork choosen resume theme from 1).
+### 3) Fork choosen resume theme from 1).
 
   1.  Click the `Fork` button on top-right part of the screen in selected theme's repo.  
   2.  It will ask to write repository's name.
@@ -40,7 +47,7 @@ I have attached some sample themes in [more resources.](#more-resources)
   
   > Etter mentioned in chap 8 how forking allows multiple contributors to work on the same project simultaneously without interfering with each other's work, and how changes made to a forked repository can be merged back into the original repository when ready. we will fork this theme and make changes and it will be very helpful to us.
 
-### 3) Make changes to resume theme to make it yours.
+### 4) Make changes to resume theme to make it yours.
 
 - Go to `_config.yml` file in selected Resume-theme's repository. 
 - Replaces content with your content and make changes in `_config.yml` file (Edit file by clicking on pencil icon at right top which will give you option to edit file.)   
