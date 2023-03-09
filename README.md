@@ -61,7 +61,7 @@ We can go to brower and search for `https://username.github.io/` which will show
 
 #### Below is an animated GIF demo of the hosted resume:
 
-![](./images/demo (1).gif)
+![](./images/demo(1).gif)
 
 
 ### More Resources
