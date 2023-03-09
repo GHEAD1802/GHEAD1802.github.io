@@ -103,7 +103,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: University of Manitoba
         sub_title: Bachelor of Science in Computer Science, majors.
         caption: May 2018 - May 2023
