@@ -60,7 +60,8 @@ Now that you have successfully complemted all things on Github pages your static
 We can go to brower and search for `https://username.github.io/` which will show all changes made with our resume and successfully sync changes made from `_config.yml`.
 
 #### Below is an animated GIF demo of the hosted resume:
-![](./images/demo (1).gif)
+
+![](./images/demo.gif)
 
 
 ### More Resources
